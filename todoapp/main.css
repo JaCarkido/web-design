@@ -1,0 +1,46 @@
+.add-item {
+    background-color: black;
+    color:white;
+    padding: 10px;
+    border-color: black;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.add-input{
+    border: dashed black;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    
+}
+
+.add-item:disabled {
+    background-color: black;
+    cursor: not-allowed;
+
+}
+
+.empty-state {
+    display: none;
+    color: red;
+}
+
+.item-list:empty + .empty-state {
+    display:block;
+    text-align: center;
+}
+
+.title {
+    color: darkblue;
+    text-align: center;
+
+}
+
+.item-list {
+    padding-left:0;
+}
+
+
